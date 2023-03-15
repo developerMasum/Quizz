@@ -1,14 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs</title>  
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+<html data-theme="retro" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
     
-</body>
+    <main class="w-[75%] text-center mx-auto mt-12">
+        <h1 class="text-3xl font-semibold mb-10  "> Answering Questions!</h1>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+      >
+        <div class="collapse-title text-xl font-medium"> What is the difference among map, forEach, find and filter? </div>
+        <div class="collapse-content">
+          <p>
+            <ul>
+                <li>
+                    Map: returns an array of pieces of information from the original array. In the callback function, return the data you wish to be part of the new array.</li>
+                <li>Filter: returns a subset of the original array based on custom criteria.
+                    forEach: forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.</li>
+                <li> find: find() method returns the value of the first element that passes a test.</li>
+            </ul>
+
+
+
+          <p>
+           <h3 class="text-2xl">
+        </div>
+      </div>
+
+  
+
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+      >
+        <div class="collapse-title text-xl font-medium">
+         what is the difference between cookies,sessionStorage and localStorage ? 
+        </div>
+        <div class="collapse-content">
+          <p class="text-lg">
+            <ul>
+                <li>
+                    localStorage - stores data with no expiration date.</li>
+                 <li>sessionStorage - stores data for one session and data will lost when the browser tab is closed.</li>
+                <li> Cookies - Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience.</li>
+            </ul>
+            
+            
+          
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+      >
+        <div class="collapse-title text-xl font-medium">
+            what is event loop???
+        </div>
+        <div class="collapse-content">
+          <p>
+            The event loop is a mechanism in JavaScript that manages the execution of tasks in an asynchronous, non-blocking manner. It continuously checks the call stack and the task queue, and when the call stack is empty, it moves tasks from the queue to the stack, where they are executed. This allows for efficient handling of I/O operations and prevents the application from becoming unresponsive. Essentially, the event loop is what enables JavaScript to perform tasks asynchronously, while still maintain
+            
+          
+          </p>
+        </div>
+      </div>
+
+      <div
+      tabindex="0"
+      class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+    >
+      <div class="collapse-title text-xl font-medium">
+        what is the work of quiz timer function?
+      </div>
+      <div class="collapse-content">
+        <p>
+            The quizTimer function is responsible for setting a countdown timer for the quiz, displaying the remaining time to the user, and ending the quiz when the time is up. It uses the setInterval method to update the timer every second and calls the endQuiz function when the time runs out.
+        </p>
+      </div>
+    </div>
+      <div
+      tabindex="0"
+      class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+    >
+      <div class="collapse-title text-xl font-medium">
+        what is work of chooseQuiz function ?
+      </div>
+      <div class="collapse-content">
+        <p>
+            chooseQuiz function allows the user to select a quiz to take by displaying a menu of available quiz options and prompting the user to input their choice. Once the user has made a selection, the function returns the corresponding quiz object, which contains information about the questions and answers for that quiz. If the user enters an invalid choice, the function prompts them to try again until a valid choice is made.
+        </p>
+      </div>
+    </div>
+    </main>
+  </body>
 </html>
