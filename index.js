@@ -2,7 +2,7 @@
 let count = 0;
 let timer;
 let quizData;
-let answers = []; 
+let answers = [];
 
 // Dom elements called
 let startQuiz = document.querySelector("#startQuiz");
